@@ -1,0 +1,163 @@
+html {
+  box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/**/
+
+body{
+  background: DADADA;
+  width: '100%'
+  
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  background: gray;
+  
+}
+  
+header {
+position: relative;
+margin: -69px auto;
+height: 406px;
+padding-top: 55px;
+background: url('http://maudboutiqueomaha.com/wp-content/themes/grainandmortar/images/bg_Texture2.png');
+}
+
+header h1{
+  float: left;
+  width: 227px;
+  height:184px;
+  text-indent: -9999px;
+  margin: 52px auto 0 460px;
+  background-image: url('http://maudboutiqueomaha.com/wp-content/themes/grainandmortar/images/logo.png');
+  background-repeat: no-repeat;
+  
+}
+
+
+header ul{
+  float: right;
+  height: 50 px;
+  padding: 100px 450px 0 0;
+  
+}
+
+header li{
+  display: inline-block;
+  font:22px 'old-standard', Times, serif;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: #DFDFD8;
+  font-weight: 600;
+  padding: 0 20px 0 50px;
+      
+      
+}
+
+.top{
+  height: 40px;
+  text-align: center;
+ 
+  
+}
+    
+.top ul{
+  float: none;
+  text-align: center;
+  display: inline-block;
+  padding: 0 0 0 0;
+} 
+    
+
+.top li{
+  font: 15px 'old-standard', Times, serif;
+  font-weight: 100;
+  text-align: center;
+  display: inline-block;
+}
+  
+  
+.content {
+  height: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  background: white;
+}
+
+
+#welcome {
+  width: 100%;
+  height: 700px;
+  background: #DFDFD8;
+  padding-top: 60px;
+}
+
+.florish-right {
+background: url('http://maudboutiqueomaha.com/wp-content/themes/grainandmortar/images/bg_florishright.png') no-repeat 0;
+height: 83px;
+width: 35%;
+float: left;
+border: none;
+margin: 0 auto -74px 157px;
+padding-top: 150px;
+}
+
+#welcome_content{
+  width: 70%;
+  margin: 0 auto 0 auto;
+  
+}
+
+
+
+#welcome_content h2 {
+float: left;
+margin: 0px auto 0 auto;
+padding-left: 124px;
+padding-top: 68px;
+width: 52%;
+font: 14px 'oswald', Times, sans-serif;
+letter-spacing: 2px;
+font-weight: 300;
+line-height: 121%;
+text-transform: uppercase;
+clear: both;
+}
+
+#welcome_content h1 {
+  float: left;
+  margin: 10px auto 0 auto;
+  padding: 0 50px 0 124px;
+  width: 52%;
+  font: 32px 'old-standard', Times, sans-serif;
+  color:#19AC87;
+  font-weight: 100;
+  line-height: 121%;
+}
+
+
+#welcome_content p {
+  clear: both;
+  float: left;
+  font-family:'proxima-nova-condensed', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  margin: 24px auto 0 129px;
+  padding-left: 54px;
+  width: 35%;
+
+}
+
+
+#welcome img {
+width: 40%;
+margin: auto 101px auto 0;
+padding-right: 55px;
+padding-top: 162px;
+
+}
